@@ -1,6 +1,7 @@
 body {
     font-family: "Lato", sans-serif;
     margin: 0px;
+    background-color: ivory;
   }
   
   .container {
@@ -54,7 +55,7 @@ body {
   
   .portfolio-items-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
   
   .portfolio-item-wrapper {
@@ -105,6 +106,7 @@ body {
   .two-column-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 30px
   }
   
   .profile-image-wrapper img {
@@ -116,5 +118,5 @@ body {
   }
   
   .profile-content-wrapper h1 {
-    color: lightseagreen;
+    color: #972705;
   }
